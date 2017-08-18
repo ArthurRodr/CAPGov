@@ -1,10 +1,15 @@
 # CAPGovCrud
 
-Utilizado WAMPSERVER 3.0.6
-Versão Apache 2.4.23
-Versão PHP 7.0.10
-Versão PostgreSQL9.6(x86)
-Laravel Installer 1.3.7
+- Utilizado WAMPSERVER 3.0.6
+
+- Versão Apache 2.4.23
+
+- Versão PHP 7.0.10
+
+- Versão PostgreSQL9.6(x86)
+
+- Laravel Installer 1.3.7
+
 
 Link para download do WAMP: https://ufpr.dl.sourceforge.net/project/wampserver/WampServer%203/WampServer%203.0.0/wampserver3.0.6_x64_apache2.4.23_mysql5.7.14_php5.7.14-7.0.10.exe
 
