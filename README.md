@@ -20,7 +20,7 @@ Em php extensions (podem ser descomentadas em php.ini):
 - Ativar php_pgsql
 
 Em apache modules:
--Verificar se rewrite_module está ativo
+- Verificar se rewrite_module está ativo
 
 Em httpd.conf no apache tive que mudar a porta para 8081, 
 porque estava dando conflito de portas para rodar o sistema. Para isso altere em httpd.conf: 
