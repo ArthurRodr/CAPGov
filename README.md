@@ -27,23 +27,23 @@ porque estava dando conflito de portas para rodar o sistema. Para isso altere em
 
 em :
 
-Listen 80
+- Listen 80
 
 altere para:
 
-Listen 8081
+- Listen 8081
 
 e em :
 
-ServerName localhost:80
+- ServerName localhost:80
 
 altere para:
 
-ServerName localhost:8081
+- ServerName localhost:8081
 
 Após isso, para rodar o sistema tive que rodar no cmd, na pasta root do projeto:
 
-php artisan serve --port=80
+- php artisan serve --port=80
 
 
 
