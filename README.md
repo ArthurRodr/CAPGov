@@ -22,31 +22,18 @@ porque estava dando conflito de portas para rodar o sistema. Para isso altere em
 
 em :
 
-# Change this to Listen on specific IP addresses as shown below to 
-# prevent Apache from glomming onto all bound IP addresses.
-#
-#Listen 12.34.56.78:80
 Listen 80
 
 altere para:
 
-# Change this to Listen on specific IP addresses as shown below to 
-# prevent Apache from glomming onto all bound IP addresses.
-#
-#Listen 12.34.56.78:8081
 Listen 8081
 
 e em :
 
-
-# If your host doesn't have a registered DNS name, enter its IP address here.
-#
 ServerName localhost:80
 
 altere para:
 
-# If your host doesn't have a registered DNS name, enter its IP address here.
-#
 ServerName localhost:8081
 
 Após isso, para rodar o sistema tive que rodar no cmd, na pasta root do projeto:
